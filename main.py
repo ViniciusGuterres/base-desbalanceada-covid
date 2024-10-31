@@ -4,8 +4,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
-from imblearn.over_sampling import SMOTE  # Importando SMOTE
-import joblib  # Importando joblib
+from imblearn.over_sampling import SMOTE
+import joblib 
 
 # Carregar os dados
 data0 = pd.read_csv("/content/drive/MyDrive/colab/BaseCovid/lbp-train-fold_0.csv")
